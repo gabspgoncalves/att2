@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head> 
+	<title> Trabalhando com formulários </title>
+	<meta charset="utf-8">
+</head>
+
+<body>
+<p> Cadastro </p>
+<form method="POST" NAME="Cadastro" ACTION="#">
+<!--Campos ocultos para configuracao de envio-->
+	<input type="hidden" name="To" 			value="gabrielapereiragoncalves.2005@gmail.com">
+	<input type="hidden" name="From" 		value="Cadastro feito no site">
+	<input type="hidden" name="Subject" 	value="Novo cadastro realizado">
+	<input type="hidden" name="Responder" 	value="https://santabarbara.sp.senai.br">
+
+<!-- Campos Solicitados-->
+<p> Nome </p>
+<p>
+	<input type="text" name="nome" id="nome" value="Digite o seu nome" size="52" maxlength="50">
+</p>
+
+<p>
+	<input type="text" name="nome2" id="nome2" placeholder="Digite o seu nome" size="52" maxlength="50">
+</p>
+
+<p> Genero </p>
+	<input type="radio" name="sexo" value="masculino"> Masculino
+	<input type="radio" name="sexo" value="feminino"> Feminino
+</p>
+	
+<p> Comente algo sobre você </p>
+<p>
+	<textarea name="sobre" cols="50" rows="4" id="sobre"> Deixe mais informações aqui! </textarea>
+</p>
+
+<p>
+Você gosta de 
+</p>
+
+<p>
+	<input type="checkbox" name="Preferência" value="Pizzada"> Pizzada <br>
+	<input type="checkbox" name="Preferência" value="Churrascada"> Churrascada <br>
+	<input type="checkbox" name="Preferência" value="Feriadão"> Feriadão <br>
+	<input type="checkbox" name="Preferência" value="Sorvete  Picolé"> Sorvete  Picolé <br>
+	<input type="checkbox" name="Preferência" value="Sorvete de Massa"> Sorvete de Massa <br>
+	<input type="checkbox" name="Preferência" value="Piscina"> Piscina <br>
+	<input type="checkbox" name="Preferência" value="Cama"> Cama <br>
+</p>
+
+<p> Digite uma senha </p>
+<p> <input type="password" name="senha" id="senha" size="25" maxlength="20">
+
+<p> Comida Preferida </p>
+<select name="alimento">
+	<option value="Arroz"> Arroz </option>
+	<option value="Feijão"> Feijão </option>
+	<option value="Picanha"> Picanha </option>
+	<option value="Batata"> Batata </option>
+	<option value="Nenhum dos itens" selected="selected"> Nenhum dos itens </option>
+</select>
+
+
+
+
+
+
+
+
+
+</form>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
